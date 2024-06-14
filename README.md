@@ -38,6 +38,10 @@ Para executar o sistema localmente, você precisa garantir que seu ambiente aten
 2. Configuração do MongoDB:
    - Certifique-se de que o MongoDB está instalado e em execução na porta padrão `27017`.
 
+# Configuração do Banco
+
+Copie o código em 'db.js' e adicione o banco no MongoDB
+
 # Executando o Sistema
 
 1. Iniciar o Servidor Flask:
