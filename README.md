@@ -10,19 +10,19 @@ Para executar o sistema localmente, você precisa garantir que seu ambiente aten
    
 2. Flask: Framework web para Python. Instale com o seguinte comando:
    
-   pip install Flask==2.0.2
+   pip install Flask
    
    
 3. MongoDB: Banco de dados NoSQL. Certifique-se de ter o MongoDB instalado e em execução localmente. Você pode baixá-lo em [MongoDB Download](https://www.mongodb.com/try/download/community).
    
 4. PyMongo: Driver Python para MongoDB. Instale com o seguinte comando:
    
-   pip install pymongo==3.12.0
+   pip install pymongo
    
 
 5. Python Requests: Biblioteca HTTP para fazer requisições para APIs externas. Instale com:
    
-   pip install requests==2.26.0
+   pip install requests
    
 
 # Configuração do Ambiente
@@ -31,8 +31,8 @@ Para executar o sistema localmente, você precisa garantir que seu ambiente aten
    - Crie um ambiente virtual para isolar as dependências do projeto (opcional, mas recomendado):
 
      python -m venv venv
-     # No Windows: venv\Scripts\activate
-     # No Unix ou MacOS: source venv/bin/activate
+     -No Windows: venv\Scripts\activate
+     -No Unix ou MacOS: source venv/bin/activate
 
 
 2. Configuração do MongoDB:
