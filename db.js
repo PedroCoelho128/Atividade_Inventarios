@@ -1,3 +1,5 @@
+use Inventario
+
 // Inserir novo funcionário
 db.funcionario.insertOne({
     cpf: '313.876.864-54',
